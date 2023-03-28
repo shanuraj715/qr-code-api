@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800&display=swap");
+@import url("./dark.css");
+@import url("./light.css");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 10px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  width: 100%;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.4s all ease-in-out;
+  -webkit-transition: 0.4s all ease-in-out;
+  -moz-transition: 0.4s all ease-in-out;
+  -ms-transition: 0.4s all ease-in-out;
+  -o-transition: 0.4s all ease-in-out;
+}
+
+table {
+  display: block;
+  white-space: normal;
+  overflow: auto;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  max-width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+code {
+  font-size: 1rem;
+}
+
+h1 {
+  padding: 10px 0 10px 15px;
+}
+
+h2 {
+  padding: 8px 0 8px 15px;
+}
+
+h3 {
+  padding: 6px 0 6px 15px;
+}
+
+h4 {
+  padding: 5px 0 5px 15px;
+}
+
+h5 {
+  padding: 4px 0 4px 15px;
+}
+
+h6 {
+  padding: 3px 0 3px 15px;
+}
+
+h1:before,
+h2:before,
+h3:before {
+  content: "*";
+  padding-right: 10px;
+}
+
+pre {
+  margin-bottom: 45px !important;
+  cursor: pointer;
+}
+pre * {
+  transition: none;
+}
+pre:hover {
+  transition: 0.4s all ease-in-out;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 576px) {
+  h1:before,
+h2:before,
+h3:before {
+    display: none;
+  }
+}
+:root {
+  font-size: 15px;
+}
+
+ul {
+  padding-left: 55px;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  white-space: nowrap;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+p {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}/*# sourceMappingURL=markdownStyle.css.map */

@@ -1,0 +1,65 @@
+body.theme-light {
+  background-color: #c8d6e5;
+  color: #2d3436;
+  border-left: solid 1px #222f3e;
+  border-right: solid 1px #222f3e;
+}
+body.theme-light::-webkit-scrollbar,
+body.theme-light section::-webkit-scrollbar,
+body.theme-light div::-webkit-scrollbar,
+body.theme-light pre::-webkit-scrollbar {
+  width: 14px;
+}
+body.theme-light::-webkit-scrollbar-track,
+body.theme-light section::-webkit-scrollbar-track,
+body.theme-light div::-webkit-scrollbar-track,
+body.theme-light pre::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 100px;
+}
+body.theme-light::-webkit-scrollbar-thumb,
+body.theme-light section::-webkit-scrollbar-thumb,
+body.theme-light div::-webkit-scrollbar-thumb,
+body.theme-light pre::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  border: 4px solid transparent;
+  background-clip: content-box;
+  background-color: #22a6b3;
+}
+body.theme-light thead {
+  background-color: #222f3e;
+  color: white;
+}
+body.theme-light th,
+body.theme-light td {
+  padding: 9px 13px;
+  border: 1px solid #2980b9;
+}
+body.theme-light a {
+  color: #c0392b;
+  padding: 0 15px;
+  background-color: #f1f2f6;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+body.theme-light a:hover {
+  background-color: #7ed6df;
+}
+body.theme-light h1 {
+  color: #b71540;
+}
+body.theme-light h1:before {
+  color: #b71540;
+}
+body.theme-light h2 {
+  color: #182c61;
+}
+body.theme-light pre {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+body.theme-light pre:hover {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}/*# sourceMappingURL=light.css.map */
